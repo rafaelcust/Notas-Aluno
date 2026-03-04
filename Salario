@@ -1,0 +1,18 @@
+<Vendedor>
+
+String:("Nome");
+double=salario;
+double=vendas;
+
+scanner("Insira seu nome: ", Nome);
+scanner("Insira seu salário fixo: ", salario);
+scanner("Insira o valor total de vendas no mês: ", vendas);
+
+comissao<-(vendas/100*15);
+salario total<-(comissao+salario);
+
+print(Nome);
+print("Salário Fixo: ", salario);
+print("Salario Total: ", salario total);
+
+fim;
