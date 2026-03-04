@@ -1,0 +1,19 @@
+<ler fatores>
+
+double=A;
+double=B;
+double=Troca;
+
+print("Coloque um valor A: ");
+scanner(A);
+print("Coloque um valor B: ");
+scanner(B)
+
+Troca<-A
+A<-B
+B<-Troca
+
+print("Seu valor A invertido é: ", A)
+print("Seu valor B invertido é: ", B)  
+
+Fim
